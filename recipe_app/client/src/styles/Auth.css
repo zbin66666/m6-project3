@@ -1,0 +1,78 @@
+h1 {
+    font-family: 'Lobster';
+    color: #55B9C7;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.518);
+    padding: 20px 0;
+    font-size: 60px;
+    text-align: center;
+}
+
+.auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    min-height: 80vh;
+}
+
+.auth p {
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.auth #loginForm,
+.auth #registerForm {
+    margin: 20px;
+    background: linear-gradient(to right, rgba(240, 248, 255, 0.125) 40%, rgba(255, 255, 255, 0));
+    padding: 30px;
+}
+
+.auth-container form h2 {
+    color: #003380;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-size: 20px;
+}
+
+.form-group input {
+    font-size: 15px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.form-group input::placeholder {
+    font-weight: 800;
+    color: #083477a9;
+}
+
+.auth-container form {
+    text-align: center;
+}
+
+.auth-container form button {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid white;
+    background-color: rgb(97, 142, 181);
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media (min-width:900px) {
+    .auth {
+        flex-direction: row;
+        justify-content: center;
+    }
+}

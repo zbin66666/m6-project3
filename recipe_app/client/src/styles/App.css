@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.2s ease-out;
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #23477E;
+}
+
+img {
+    height: 100px;
+}
+
+.components {
+    margin-left: 80px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar:thumb {
+    width: 0px;
+    height: 0px;
+}

@@ -1,0 +1,66 @@
+.saved {
+    background-color: #23477E;
+}
+
+ul {
+    list-style: none;
+}
+
+.saved h1 {
+    color: white;
+    letter-spacing: 10px;
+    font-size: 35px;
+    padding: 5px 100px;
+    background-image: linear-gradient(to left, #00000000, #202020);
+    position: sticky;
+    top: 0;
+    z-index: 6;
+}
+
+.saved ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+}
+
+.saved ul li {
+    position: relative;
+    background-color: #DC6C9C;
+    background: linear-gradient(to right, #dc6c9df5 60%, #dc6c9d00);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 250px;
+    justify-content: center;
+    padding: 20px 40px 20px 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.saved ul li div h2 {
+    color: #23477E;
+    letter-spacing: 2px;
+    margin: 0 0 10px 0;
+}
+
+
+.saved ul li img {
+    width: 180px;
+    box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.5);
+    border-radius: 3px;
+    margin: 0 0px 10px 0;
+}
+
+.saved ul li p {
+    margin: 0 0 0px;
+    color: #23477E;
+    font-size: 15px;
+}
+
+.saved ul li .instructions p {
+    margin: 0 0 10px;
+    color: #23477E;
+    font-size: 18px;
+}
